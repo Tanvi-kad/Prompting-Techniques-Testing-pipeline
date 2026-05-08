@@ -2,17 +2,17 @@
 This repo contains the testing framework used to evaluate 7 prompting techniques across 4 LLMs, measuring their accuracy, hallucination rate and avg response time. 
 All the models were accessed through the Free Groq API- to make it fully reproducible. 
 
-Prompting Techniques Evaluated <br> 
-|Technique      |   Description   |
------------------------------------
-| Zero-shot     |   Direct question, no examples or instructions |
-| One-shotO     |   One worked example given for the model to understand the reasoning |
-| Few-shot      |   Three worked examples given to the model |
-| Chain-of-Thought  |  Step-by-step reasoning instruction |
-| Tree-of-Thought  | Three reasoning paths generated and evaluated |
-| Thread-of-Thought | Continuous self-referential reasoning thread |
-| Graph-of-Thought | Node-edge graph structure for problem decomposition |
---------------------------------------------------------------------------
+## Prompting Techniques Evaluated
+
+| Technique | Abbreviation | Description |
+|---|---|---|
+| Zero-shot | ZS | Direct question, no examples or instructions |
+| One-shot | OS | One worked example prepended |
+| Few-shot | FS | Three worked examples prepended |
+| Chain-of-Thought | CoT | Step-by-step reasoning instruction |
+| Tree-of-Thought | ToT | Three reasoning paths generated and evaluated |
+| Thread-of-Thought | ThOT | Continuous self-referential reasoning thread |
+| Graph-of-Thought | GoT | Node-edge graph structure for problem decomposition |
 
 Metrics <br>- 
 1. Accuracy (%) — Proportion of responses matching ground truth
