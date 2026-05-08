@@ -2,7 +2,7 @@
 This repo contains the testing framework used to evaluate 7 prompting techniques across 4 LLMs, measuring their accuracy, hallucination rate and avg response time. 
 All the models were accessed through the Free Groq API- to make it fully reproducible. 
 
-Prompting Techniques Evaluated 
+Prompting Techniques Evaluated <br> 
 |Technique      |   Description   |
 -----------------------------------
 | Zero-shot     |   Direct question, no examples or instructions |
